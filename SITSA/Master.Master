@@ -1,5 +1,9 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="SITSA.Site1" %>
 
+<%--EN LA PÁGINA MAESTRA SE ENCUENTRA EL LAYOUT PRINCIPAL DE TODO EL SITIO WEB--%>
+<%--DESDE ACA SE AGREGAN LOS HEADER, FOOTERS Y ASIDES QUE SE VERAN EN TODAS LAS 
+PAGINAS RELACIONADAS A ESTA--%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
 <html xmlns="http://www.w3.org/1999/xhtml">
