@@ -34,7 +34,10 @@
                                     <p>Teléfono: +(506) 2431-2925 <br>
                                         Email: info@sitsacr.net</p>
                                 </address>
+                            </li>
 
+
+                            <li class="col-sm-6">
                                 <address>
                                     <h5>Managua, Nicaragua</h5>
                                     <p>150 Metros al sur de la rotonda El Periodista<br>
@@ -42,17 +45,7 @@
                                     <p>Teléfono: +(505) 2270-5182 <br>
                                   </p>
                                 </address>
-                            </li>
-
-
-                            <li class="col-sm-6">
-                                <address>
-                                    <h5>San José, Costa Rica</h5>
-                                   <p>100 Metros sur y 50 Oeste de Subway Paseo Colón  <br>
-                                    CASA CANADA, Oficina #40</p>
-                                    <p>Teléfono: +(506) 2257-5925<br>
-                                  </p>
-                                </address>
+                                
                             </li>
                         </ul>
                     </div>
