@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\fonts\" />
+    <Folder Include="Assets\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
