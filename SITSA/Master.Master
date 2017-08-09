@@ -69,7 +69,7 @@ PAGINAS RELACIONADAS A ESTA--%>
                     </div>
                     <%--container--%>
                 </div>
-                <!--/barra superior de navegacion principal de todo el sitio web, logotipo de la empresa-->
+                <!--BARRA SUPERIOR, NAVEGACION PRINCIPAL DE TODO EL SISTIO WEB, LOGOTIPO DE LA EMPRESA-->
                 <%--/top-bar--%>
                 <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -86,25 +86,39 @@ PAGINAS RELACIONADAS A ESTA--%>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Inicio.aspx">Home</a></li>
-                       <li><a href="portfolio.aspx">Portfolio</a></li>
-                        <li><a href="services.aspx">Services</a></li>                        
+                       <li><a href="portfolio.aspx">Nuetros Clientes</a></li>
+
+                        <%--MENUS DROPDOWN--%>                       
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Blog Single</a></li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="#">404</a></li>
                                 <li><a href="#">Shortcodes</a></li>
+                            </ul> 
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Producto 1</a></li>
+                                <li><a href="#">Producto 2</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Blog</a></li> 
-                        <li><a href="Contacto.aspx">Contact</a></li>                        
+                        <li><a href="#">Tickets</a></li> 
+                        <li><a href="Contacto.aspx">Contacto</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
                 <!--/nav-->
             </header>
+
+<%--    SE DEBE DEJAR LA PARTE DE CONTENIDO VACÍA, YA QUE AQUI ES DONDE VA
+        LA INFORMACIÓN DE LAS PÁGINAS LIGADAS A LA MASTER.
+        ADEMÁS SE DEBE RESPETAR LA ESTRUCTURA DE LAS PÁGINAS.
+        YA HEADER, CONTENIDO, FOOTER.--%>
 
         <asp:ContentPlaceHolder ID="contenido" runat="server">
          </asp:ContentPlaceHolder>
@@ -119,15 +133,36 @@ PAGINAS RELACIONADAS A ESTA--%>
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="Inicio.aspx">Inicio</a></li>
                         <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="Contacto.aspx">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
     </footer>
+
+        <%--SCRIPT NECESARIO PARA LA FUNCION BACK TO TOP--%>
+        <script type="text/javascript">
+        jQuery(document).ready(function () {
+            var offset = 300;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                    jQuery('.back-to-top').fadeOut(duration);
+                }
+            });
+
+            jQuery('.back-to-top').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
     </div>
     </form>
 
