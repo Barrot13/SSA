@@ -36,7 +36,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img1.png" class="img-responsive">
+                                    <img src="images/slider/img1.png" class="img-responsive" alt=""/>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img2.png" class="img-responsive">
+                                    <img src="images/slider/img2.png" class="img-responsive" alt=""/>
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
+                                    <img src="images/slider/img3.png" class="img-responsive" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -98,94 +98,30 @@
 
 
 <%------INFORMACIÓN DE LA EMPRESA------%>
-    <%--<section id="nosotros">--%>
+ 
+        <section id="nosotros">
+        <div class="container">
+            
 
-    <div id="nosotros" class="container">
-        <div class="col-md-2" style="border-right: 1px solid RGBA(0,0,0,0.09)">
-            <ul class="nav nav-pills nav-stacked">
-                <%--<li class="active"><a href="#about">Quienes Somos</a></li>--%>
-                <li class="active"><a href="#about" data-toggle="tab">¿Quienes Somos?</a></li>
-                <li><a href="#mision" data-toggle="tab">Misión</a></li>
-                <li><a href="#vision" data-toggle="tab">Visión</a></li>
-            </ul>
+         <div class="row text-center">
+             <div class="col-md-4 col-sm-4  icon-big" >
+                 <i class="fa fa-group fa-4x" style="color:dodgerblue;" ></i>
+                  <h2>Nosotros</h2>
+                      <p class="justify">SITSA – Soluciones Integrales en Tecnología, es una empresa dedicada a la asesoría técnica en el área de informática. Nuestro objetivo es ofrecer soluciones integrales para nuestros clientes, administrando los recursos de forma eficiente.</p>
+             </div>
+             <div class="col-md-4 col-sm-4  icon-big" >
+                 <i class="fa fa-area-chart fa-4x" style="color:dodgerblue;"></i>
+                 <h2>Misíon</h2>
+                      <p>Nuestra misión es proveer asesoría técnica, soporte y soluciones informáticas de alta calidad, que busque ofrecer mayores beneficios para nuestros clientes, trabajando siempre en equipo y con el mayor compromiso posible.</p>
+             </div>
+             <div class="col-md-4 col-sm-4  icon-big"  >
+                 <i class="fa fa-line-chart fa-4x" style="color:dodgerblue;"></i>
+                 <h2>Visíon</h2>
+                      <p>Ser reconocidos en el mercado nacional e internacional como empresa líder de informática, que brinda servicios y productos de calidad, con un absoluto compromiso con sus clientes, ofreciéndoles soluciones de la manera más eficaz y eficiente.</p>
+             </div>
+         </div>
         </div>
-
-
-        <div class="col-md-6">
-            <div class="tab-content">
-                <section id="about" class="tab-pane fade in active">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-md-5 col-sm-6">
-                                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                                    <h2>¿Quiénes Somos?
-                                    </h2>
-                                    <p>SITSA – Soluciones Integrales en Tecnología, es una empresa dedicada a la asesoría técnica en el área de informática. Nuestro objetivo es ofrecer soluciones integrales para nuestros clientes, administrando los recursos de forma eficiente.
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="block wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
-                                    <img src="images/about.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!----------- /#about -------------->
-
-
-  <section id="mision" class="tab-pane fade ">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-4 col-sm-6">
-                  <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                      <img src="images/about.jpg" alt="">
-                  </div>
-              </div>
-              <div class="col-md-5 col-sm-6">
-                  <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                      <h3 class="subtitle wow fadeInLeft"  data-wow-delay=".3s" data-wow-duration="500ms" >Misión</h3>
-                      <p>
-                          Nuestra misión es proveer asesoría técnica, soporte y soluciones informáticas de alta calidad, que busque ofrecer mayores beneficios para nuestros clientes, trabajando siempre en equipo y con el mayor compromiso posible.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-
-       <section id="vision" class="tab-pane fade">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-6">
-                        <div class="block wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
-                               <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Visión</h3>
-
-                            <p>
-                                Ser reconocidos en el mercado nacional e internacional como empresa líder de informática, que brinda servicios y productos de calidad, con un absoluto compromiso con sus clientes, ofreciéndoles soluciones de la manera más eficaz y eficiente.
-                                </p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                             <img src="images/about.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-    </div>
-    </div>
-
-<%--</section> --%>
+    </section>
 
 </asp:Content>
 
