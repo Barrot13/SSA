@@ -73,6 +73,7 @@
     <Content Include="Assets\css\main.css" />
     <Content Include="Assets\css\prettyPhoto.css" />
     <Content Include="Assets\css\responsive.css" />
+    <Content Include="Assets\images\soporte.png" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\html5shiv.js" />
     <Content Include="Assets\js\jquery.isotope.min.js" />
@@ -121,7 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\fonts\" />
-    <Folder Include="Assets\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
