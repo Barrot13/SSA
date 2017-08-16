@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
 </asp:Content>
 
+
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
 
 
@@ -15,12 +16,12 @@
             <p class="lead">Póngase en contacto con nosotros o visítenos, es un placer atenderles</p>
      
         </div>
-        <div class="gmap-area">
+        <div class="gmap-area" style="background-image:url(images/map.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5 text-center">
                         <div class="gmap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.9608801613585!2d-84.21807168520567!3d10.02008699283737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDAxJzEyLjMiTiA4NMKwMTInNTcuMiJX!5e0!3m2!1sen!2sus!4v1502206442188" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.9608801613585!2d-84.21807168520567!3d10.02008699283737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDAxJzEyLjMiTiA4NMKwMTInNTcuMiJX!5e0!3m2!1sen!2sus!4v1502206442188"></iframe>
                         </div>
                     </div>
 

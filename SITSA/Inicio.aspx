@@ -3,6 +3,11 @@
 <%--ARCHIVOS CSS NECESARIOS--%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+<%--<style type="text/css">
+.mySlides {display:none;}
+</style>--%>
 </asp:Content>
 
  
@@ -32,7 +37,7 @@
                             
                               <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.</h1>
+                                    <h1 class="animation animated-item-1">Desarrollo</h1>
                                     <h2 class="animation animated-item-2">Bootstrap is completely free to download and use!</h2>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
@@ -55,7 +60,7 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">What is Responsive Web Design?</h1>
+                                    <h1 class="animation animated-item-1">Venta de Equipo</h1>
                                     <h2 class="animation animated-item-2">Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</h2>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
@@ -128,87 +133,104 @@
         </div>
     </section>
 
-<%--    <div class="fullwidth" >
-        <div class="vc_row wpb_row vc_row-fluid">
-            <div class="wpb_column vc_column_container vc_col-sm-12">
-                <div class="wpb_wrapper">
-                    <div class="innovation-partner-carousel   container" >
-                        <div class="innovation-heading style1">
-                            <h2>Nuestras Marcas</h2>
-                        </div>
-                        <div class="owl-carousel" data-plugin-options='{"items" : , "autoPlay": true,"pagination": false,"navigation": true}'>
-                            <div class="content-middle-inner"><img width="154" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/ubiquiti_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="129" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/xorcom_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="213" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/yealink_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="150" height="33" src="http://www.sitsacr.net/wp-content/uploads/2016/01/microsoft_part-e1459301668551.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="250" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/hubrox_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="231" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/hikvision_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="45" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/dell_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="236" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/honeywell_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="45" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/hp_part.png" class="attachment-full" alt="" /></div>
-                            <div class="content-middle-inner"><img width="80" height="45" src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" class="attachment-full" alt="" /></div>
-                        </div>
-                    </div>
-                </div>
+  <section id="marcas">
+
+    
+    <h2 class="w3-center">Nuestras Marcas</h2>
+
+<div class="w3-content w3-centered" style="max-width:50px; position:center" >
+    <div class="w3-content w3-centered" style="max-width:400%; position:center">
+        <img class="mySlides w3-center" src="images/slider/dell_part.png" style="max-width:400%">
+        <img class="mySlides w3-center" src="images/slider/gdata_part.png" style="max-width:400%">
+        <img class="mySlides w3-center" src="images/slider/hp_part.png"  style="max-width:400%">
+       </div>
+</div>
+      <div class="w3-content w3-centered" style="max-width:400px; position:center">
+
+        <div class="w3-content w3-centered" style="max-width:200px; position:center" >
+
+        
+        <img class="mySlides w3-center" src="images/slider/hikvision_part.png" style="max-width:400%"> 
+        <img class="mySlides w3-center" src="images/slider/mikrotik_part.png"  style="max-width:400%">
+        <img class="mySlides w3-center" src="images/slider/hubrox_part.png"  style="max-width:400%">
+        <img class="mySlides w3-center" src="images/slider/ubiquiti_part.png"  style="max-width:400%">
+       </div>
+       </div>
+          
+</section> 
+
+    <section>
+
+
+        <div class="clients-area center wow fadeInDown">
+        <h2>
+            What our client says</h2>
+        <p class="lead">
+            We pride ourselves on providing superior service but you don't just have to take
+            our word for it.
+            <br>
+            Read what employers in the UK have to say about working with Robert Half in the
+            client testimonials below.</p>
+    </div>
+    <div class="container">
+        <div class="col-md-3 wow fadeInDown">
+            <div class="clients-comments text-center">
+                <img src="images/client1.png" class="img-circle" alt="">
+                <h3>
+                    Marketers, including Unilever, reveal </h3>
+                <h4>
+                    <span>- Will Smith /</span> Director of strap.com</h4>
             </div>
         </div>
-    </div>--%>
+        <div class="col-md-3 wow fadeInDown">
+            <div class="clients-comments text-center">
+                <img src="images/client2.png" class="img-circle" alt="">
+                <h3>
+                    Executives from BBH, Euro RSCG.</h3>
+                <h4>
+                    <span>- Will Smith /</span> Director of strap.com</h4>
+            </div>
+        </div>
+        <div class="col-md-3 wow fadeInDown">
+            <div class="clients-comments text-center">
+                <img src="images/client3.png" class="img-circle" alt="">
+                <h3>
+                    Professors from the Kellogg.</h3>
+                <h4>
+                    <span>- Will Smith /</span> Director of strap.com</h4>
+            </div>
+        </div>
+                <div class="col-md-3 wow fadeInDown">
+            <div class="clients-comments text-center">
+                <img src="images/client3.png" class="img-circle" alt="">
+                <h3>
+                    Professors from the Kellogg.</h3>
+                <h4>
+                    <span>- Will Smith /</span> Director of strap.com</h4>
+            </div>
+        </div>
+    </div>
 
-
-<%--nuevo carrusel--%>
-<%--    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" alt="Chicago">
-      <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" alt="Chicago">
-        <img src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" alt="Chicago">
-        <img src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" alt="Chicago">
-      <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="http://www.sitsacr.net/wp-content/uploads/2016/01/gdata_part.png" alt="New York">
-      <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>--%>
-
-
-
-
+    </section>
 </asp:Content>
 
 <%--ARCHIVOS JS NECESARIOS--%>
 <asp:Content ID="Content3" ContentPlaceHolderID="js" runat="server">    
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
 </asp:Content>

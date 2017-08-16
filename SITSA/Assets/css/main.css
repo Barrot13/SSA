@@ -385,10 +385,10 @@ input.search-form:hover {
 
 }
 
-#publicidad {
-    float:right;
-    width: 15%;
-    margin: 0.5%;
+#marcas{
+ padding-top: 2%;
+ padding-bottom: 2%;
+ background-color: #FFFFFF;
 }
 
 /*************************
@@ -1050,10 +1050,10 @@ a.accordion-toggle i
   width: 20%;
 }
 
-#conatcat-info
-{
-    background: #fff url(../images/contact.png) no-repeat 90% 0;
+#conatcat-info {
+    background-image:url('../images/soporte.png');
     padding: 30px 0;
+    /*background-image: url('../images/soporte.png');*/
 }
 
 .contact-info i{

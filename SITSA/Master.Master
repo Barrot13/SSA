@@ -95,7 +95,7 @@ PAGINAS RELACIONADAS A ESTA--%>
 
                         <%--MENUS DROPDOWN--%>                       
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Blog Single</a></li>
                                 <li><a href="#">Pricing</a></li>
