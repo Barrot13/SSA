@@ -95,7 +95,7 @@ PAGINAS RELACIONADAS A ESTA--%>
 
                         <%--MENUS DROPDOWN--%>                       
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones<i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Blog Single</a></li>
                                 <li><a href="#">Pricing</a></li>
@@ -115,7 +115,7 @@ PAGINAS RELACIONADAS A ESTA--%>
 <%--    SE DEBE DEJAR LA PARTE DE CONTENIDO VACÍA, YA QUE AQUI ES DONDE VA
         LA INFORMACIÓN DE LAS PÁGINAS LIGADAS A LA MASTER.
         ADEMÁS SE DEBE RESPETAR LA ESTRUCTURA DE LAS PÁGINAS.
-        YA HEADER, CONTENIDO, FOOTER.--%>
+        YA SEA HEADER, CONTENIDO, FOOTER.--%>
 
         <asp:ContentPlaceHolder ID="contenido" runat="server">
          </asp:ContentPlaceHolder>
@@ -126,7 +126,7 @@ PAGINAS RELACIONADAS A ESTA--%>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2017 <a target="_blank" href="http://www.sitsacr.net" title="">Diseñado y Desarrollado por SITSA</a>. Todos los Derechos Reservados.
+                    &copy; 2017 <a target="_blank" href="Contacto.aspx" title="">Diseñado y Desarrollado por SITSA</a>. Todos los Derechos Reservados.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">

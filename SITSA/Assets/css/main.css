@@ -380,8 +380,9 @@ input.search-form:hover {
 
 
 #nosotros {
+
  padding-top: 2%;
- background-color: #FFFFFF;
+ background-color: #D8D8D8;
 
 }
 
@@ -390,6 +391,14 @@ input.search-form:hover {
  padding-bottom: 2%;
  background-color: #FFFFFF;
 }
+
+
+#reviews {
+background-color: #CED8F6;
+}
+
+
+
 
 /*************************
 *******Home Page******

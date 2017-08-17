@@ -4,6 +4,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
 
+    <link href="Assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="Assets/css/owl.carousel.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 <%--<style type="text/css">
 .mySlides {display:none;}
@@ -26,36 +29,35 @@
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
+                <li data-target="#main-slider" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <%--PRIMER ELEMNTO DEL CARRUSEL--%>
                  <%-- IMAGEN DE FONDO--%>
-                <div class="item active" style="background-image: url(images/slider/soporte.png)">
+                <div class="item active" style="background-image: url(images/slider/bussines.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
 
-                            
-                              <div class="col-sm-6">
+                            <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Desarrollo</h1>
                                     <h2 class="animation animated-item-2">Bootstrap is completely free to download and use!</h2>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
                             </div>
-                          
-
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
                                     <%--<img src="images/slider/img1.png" class="img-responsive" alt=""/>--%>
                                 </div>
                             </div>
 
+
                         </div>
                     </div>
                 </div><!--/.item-->
 
                 <%--SEGUNDO ELEMENTO--%>
-                <div class="item" style="background-image: url(images/slider/server.jpeg)">
+                <div class="item" style="background-image: url(images/slider/serveroom.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -77,6 +79,27 @@
                 </div><!--/.item-->
 
                 <%--TERCER ELEMENTO--%>
+
+                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Mobile-first approach</h1>
+                                    <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <%--CUARTO ELEMENTO--%>
 
                 <div class="item" style="background-image: url(images/slider/bg3.jpg)">
                     <div class="container">
@@ -133,7 +156,103 @@
         </div>
     </section>
 
-  <section id="marcas">
+
+        <section id="marcas">
+            <div class="owl-carousel owl-theme">
+    <div class="item" style="width:auto">
+        <img src="images/slider/hikvision_part.png" alt="">
+    </div>
+    <div class="item" style="max-width:400%">
+        <img src="images/slider/dell_part.png" alt="">
+    </div>
+
+</div>
+        <%--<div class="container-fluid">
+            <div class="row">
+                <div id="do-portfolio-slider" class="owl-carousel do-portfolio-slider">
+
+                    <div class="do-work-item do-portfolio-slides">
+                        <div class="do-work-item-inner-wrap">
+                            <img src="images/slider/hikvision_part.png" alt="">
+                            <div class="do-work-item-hover">
+                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
+                                <div class="do-work-item-details">
+                                    <h3 class="do-work-item-title">
+                                        Godrej Propertie
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="do-work-item do-portfolio-slides">
+                        <div class="do-work-item-inner-wrap">
+                            <img src="images/slider/hikvision_part.png" alt="">
+                            <div class="do-work-item-hover">
+                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
+                                <div class="do-work-item-details">
+                                    <h3 class="do-work-item-title">
+                                        Godrej Nature's Basket
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="do-work-item do-portfolio-slides">
+                        <div class="do-work-item-inner-wrap">
+                            <img src="images/slider/hikvision_part.png" alt="">
+                            <div class="do-work-item-hover">
+                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
+                                <div class="do-work-item-details">
+                                    <h3 class="do-work-item-title">
+                                        Medidaili
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="do-work-item do-portfolio-slides">
+                        <div class="do-work-item-inner-wrap">
+                            <img src="images/slider/hikvision_part.png" alt="">
+                            <div class="do-work-item-hover">
+                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
+                                <div class="do-work-item-details">
+                                    <h3 class="do-work-item-title">
+                                        Beacons Talk
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="do-work-item do-portfolio-slides">
+                        <div class="do-work-item-inner-wrap">
+                            <img src="images/Client_logo/client-5.jpg" alt="">
+                            <div class="do-work-item-hover">
+                                <a href="images/Client_logo/client-5.jpg" class="do-work-item-popup"></a>
+                                <div class="do-work-item-details">
+                                    <h3 class="do-work-item-title">
+                                        Bajaj
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>--%>
+    </section>
+
+<%--  <section id="marcas">
 
     
     <h2 class="w3-center">Nuestras Marcas</h2>
@@ -157,9 +276,9 @@
        </div>
        </div>
           
-</section> 
+</section> --%>
 
-    <section>
+    <section id="reviews">
 
 
         <div class="clients-area center wow fadeInDown">
@@ -217,7 +336,9 @@
 <%--ARCHIVOS JS NECESARIOS--%>
 <asp:Content ID="Content3" ContentPlaceHolderID="js" runat="server">    
 
-<script>
+    <script src="Assets/js/owl.carousel.js"></script>
+    <script src="Assets/js/owl.carousel.min.js"></script>
+<%--<script>
 var slideIndex = 0;
 carousel();
 
@@ -232,5 +353,27 @@ function carousel() {
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 2000); 
 }
+</script>--%>
+
+
+<script>
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:6,
+        loop:true,
+        margin: 100,
+        autoWidth: true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true
+    });
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
+
 </script>
 </asp:Content>
