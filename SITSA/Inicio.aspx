@@ -15,7 +15,6 @@
 
  
 
-
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
     <%--CONTENIDO PRINCIPAL DE ESTA PÁGINA--%>
 
@@ -155,129 +154,8 @@
          </div>
         </div>
     </section>
-
-
-        <section id="marcas">
-            <div class="owl-carousel owl-theme">
-    <div class="item" style="width:auto">
-        <img src="images/slider/hikvision_part.png" alt="">
-    </div>
-    <div class="item" style="max-width:400%">
-        <img src="images/slider/dell_part.png" alt="">
-    </div>
-
-</div>
-        <%--<div class="container-fluid">
-            <div class="row">
-                <div id="do-portfolio-slider" class="owl-carousel do-portfolio-slider">
-
-                    <div class="do-work-item do-portfolio-slides">
-                        <div class="do-work-item-inner-wrap">
-                            <img src="images/slider/hikvision_part.png" alt="">
-                            <div class="do-work-item-hover">
-                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
-                                <div class="do-work-item-details">
-                                    <h3 class="do-work-item-title">
-                                        Godrej Propertie
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="do-work-item do-portfolio-slides">
-                        <div class="do-work-item-inner-wrap">
-                            <img src="images/slider/hikvision_part.png" alt="">
-                            <div class="do-work-item-hover">
-                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
-                                <div class="do-work-item-details">
-                                    <h3 class="do-work-item-title">
-                                        Godrej Nature's Basket
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="do-work-item do-portfolio-slides">
-                        <div class="do-work-item-inner-wrap">
-                            <img src="images/slider/hikvision_part.png" alt="">
-                            <div class="do-work-item-hover">
-                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
-                                <div class="do-work-item-details">
-                                    <h3 class="do-work-item-title">
-                                        Medidaili
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="do-work-item do-portfolio-slides">
-                        <div class="do-work-item-inner-wrap">
-                            <img src="images/slider/hikvision_part.png" alt="">
-                            <div class="do-work-item-hover">
-                                <a href="images/slider/hikvision_part.png" class="do-work-item-popup"></a>
-                                <div class="do-work-item-details">
-                                    <h3 class="do-work-item-title">
-                                        Beacons Talk
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="do-work-item do-portfolio-slides">
-                        <div class="do-work-item-inner-wrap">
-                            <img src="images/Client_logo/client-5.jpg" alt="">
-                            <div class="do-work-item-hover">
-                                <a href="images/Client_logo/client-5.jpg" class="do-work-item-popup"></a>
-                                <div class="do-work-item-details">
-                                    <h3 class="do-work-item-title">
-                                        Bajaj
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>--%>
-    </section>
-
-<%--  <section id="marcas">
-
     
-    <h2 class="w3-center">Nuestras Marcas</h2>
-
-<div class="w3-content w3-centered" style="max-width:50px; position:center" >
-    <div class="w3-content w3-centered" style="max-width:400%; position:center">
-        <img class="mySlides w3-center" src="images/slider/dell_part.png" style="max-width:400%">
-        <img class="mySlides w3-center" src="images/slider/gdata_part.png" style="max-width:400%">
-        <img class="mySlides w3-center" src="images/slider/hp_part.png"  style="max-width:400%">
-       </div>
-</div>
-      <div class="w3-content w3-centered" style="max-width:400px; position:center">
-
-        <div class="w3-content w3-centered" style="max-width:200px; position:center" >
-
-        
-        <img class="mySlides w3-center" src="images/slider/hikvision_part.png" style="max-width:400%"> 
-        <img class="mySlides w3-center" src="images/slider/mikrotik_part.png"  style="max-width:400%">
-        <img class="mySlides w3-center" src="images/slider/hubrox_part.png"  style="max-width:400%">
-        <img class="mySlides w3-center" src="images/slider/ubiquiti_part.png"  style="max-width:400%">
-       </div>
-       </div>
-          
-</section> --%>
-
+    
     <section id="reviews">
 
 
@@ -290,47 +168,83 @@
             <br>
             Read what employers in the UK have to say about working with Robert Half in the
             client testimonials below.</p>
-    </div>
-    <div class="container">
-        <div class="col-md-3 wow fadeInDown">
-            <div class="clients-comments text-center">
-                <img src="images/client1.png" class="img-circle" alt="">
-                <h3>
-                    Marketers, including Unilever, reveal </h3>
-                <h4>
-                    <span>- Will Smith /</span> Director of strap.com</h4>
-            </div>
         </div>
-        <div class="col-md-3 wow fadeInDown">
-            <div class="clients-comments text-center">
-                <img src="images/client2.png" class="img-circle" alt="">
-                <h3>
-                    Executives from BBH, Euro RSCG.</h3>
-                <h4>
-                    <span>- Will Smith /</span> Director of strap.com</h4>
-            </div>
-        </div>
-        <div class="col-md-3 wow fadeInDown">
-            <div class="clients-comments text-center">
-                <img src="images/client3.png" class="img-circle" alt="">
-                <h3>
-                    Professors from the Kellogg.</h3>
-                <h4>
-                    <span>- Will Smith /</span> Director of strap.com</h4>
-            </div>
-        </div>
-                <div class="col-md-3 wow fadeInDown">
-            <div class="clients-comments text-center">
-                <img src="images/client3.png" class="img-circle" alt="">
-                <h3>
-                    Professors from the Kellogg.</h3>
-                <h4>
-                    <span>- Will Smith /</span> Director of strap.com</h4>
-            </div>
-        </div>
-    </div>
 
+        <div class=" owl-carousel1 owl-theme"></div>
+        
+        <div class="container">
+            <div class="col-md-3 wow fadeInDown">
+                <div class="clients-comments text-center">
+                    <img src="images/client1.png" class="img-circle" alt="">
+                    <h3>
+                        Marketers, including Unilever, reveal </h3>
+                    <h4>
+                        <span>- Will Smith /</span> Director of strap.com</h4>
+                </div>
+            </div>
+                <div class="col-md-3 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client2.png" class="img-circle" alt="">
+                        <h3>
+                            Executives from BBH, Euro RSCG.</h3>
+                        <h4>
+                            <span>- Will Smith /</span> Director of strap.com</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client3.png" class="img-circle" alt="">
+                        <h3>
+                            Professors from the Kellogg.</h3>
+                        <h4>
+                            <span>- Will Smith /</span> Director of strap.com</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="images/client3.png" class="img-circle" alt="">
+                        <h3>
+                            Professors from the Kellogg.</h3>
+                        <h4>
+                            <span>- Will Smith /</span> Director of strap.com</h4>
+                    </div>
+                </div>
+        </div>
     </section>
+
+        <%--CARRUSEL DE MARCAS--%>
+    
+    <section id="marcas">
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="max-width:900%">
+                <img src="images/marcas/hikvision_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/yealink_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/dell_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/hubrox_part.png" alt="">
+            </div>
+             <div class="item" style="max-width:100%">
+                <img src="images/marcas/mikrotik_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/hp_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/xorcom_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/ubiquiti_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/gdata_part.png" alt="">
+            </div>
+        </div>
+         </section>
 </asp:Content>
 
 <%--ARCHIVOS JS NECESARIOS--%>
@@ -338,24 +252,9 @@
 
     <script src="Assets/js/owl.carousel.js"></script>
     <script src="Assets/js/owl.carousel.min.js"></script>
-<%--<script>
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 2000); 
-}
-</script>--%>
 
 
+<%--NECESARIO PARA LA ANIMACION DEL CARRUSEL--%>
 <script>
 
     var owl = $('.owl-carousel');
@@ -363,17 +262,25 @@ function carousel() {
         items:6,
         loop:true,
         margin: 100,
-        autoWidth: true,
+        autoWidth: 500,
+        autoHeight:true,
         autoplay:true,
-        autoplayTimeout:2000,
-        autoplayHoverPause:true
+        autoplayTimeout:3000,
+        autoplayHoverPause: false,
+        autoHeightClass: 'owl-height'
     });
-    $('.play').on('click',function(){
-        owl.trigger('play.owl.autoplay',[1000])
-    })
-    $('.stop').on('click',function(){
-        owl.trigger('stop.owl.autoplay')
-    })
+
+    //var owl = $('.owl-carousel1');
+    //owl.owlCarousel({
+    //    items: 1,
+    //    margin: 1,
+    //    autoWidth: true,
+    //    autoHeight: true,
+    //    autoplay: true,
+    //    autoplayTimeout:10000,
+    //    autoplayHoverPause: false,
+    //    autoHeightClass: 'owl-height'
+    //});
 
 </script>
 </asp:Content>
