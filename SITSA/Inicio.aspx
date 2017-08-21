@@ -100,7 +100,7 @@
 
                 <%--CUARTO ELEMENTO--%>
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(images/slider/bg4.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive" alt=""/>
+                                    <img src="images/slider/laptop.png" width="80%" class="img-responsive" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -157,9 +157,60 @@
     
     
     <section id="reviews">
+<%--        <div class="carousel-inner">
+        <div class="item">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client1.png" class="img-circle" alt="">
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
 
-
-        <div class="clients-area center wow fadeInDown">
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client2.png" class="img-circle" alt="">
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client1.png" class="img-circle" alt="">
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client1.png" class="img-circle" alt="">
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div>--%>
+    <div class="clients-area center wow fadeInDown">
         <h2>
             What our client says</h2>
         <p class="lead">
@@ -168,10 +219,8 @@
             <br>
             Read what employers in the UK have to say about working with Robert Half in the
             client testimonials below.</p>
-        </div>
-
-        <div class=" owl-carousel1 owl-theme"></div>
-        
+    </div>
+      
         <div class="container">
             <div class="col-md-3 wow fadeInDown">
                 <div class="clients-comments text-center">
@@ -202,7 +251,7 @@
                 </div>
                 <div class="col-md-3 wow fadeInDown">
                     <div class="clients-comments text-center">
-                        <img src="images/client3.png" class="img-circle" alt="">
+                        <img src="images/about.jpg" class="img-circle" alt="">
                         <h3>
                             Professors from the Kellogg.</h3>
                         <h4>
@@ -229,7 +278,7 @@
                 <img src="images/marcas/hubrox_part.png" alt="">
             </div>
              <div class="item" style="max-width:100%">
-                <img src="images/marcas/mikrotik_part.png" alt="">
+                <img src="images/marcas/honeywell_part.png" alt="">
             </div>
             <div class="item" style="max-width:90%">
                 <img src="images/marcas/hp_part.png" alt="">
@@ -242,6 +291,9 @@
             </div>
             <div class="item" style="max-width:90%">
                 <img src="images/marcas/gdata_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:90%">
+                <img src="images/marcas/mikrotik_part.png" alt="">
             </div>
         </div>
          </section>
@@ -270,17 +322,6 @@
         autoHeightClass: 'owl-height'
     });
 
-    //var owl = $('.owl-carousel1');
-    //owl.owlCarousel({
-    //    items: 1,
-    //    margin: 1,
-    //    autoWidth: true,
-    //    autoHeight: true,
-    //    autoplay: true,
-    //    autoplayTimeout:10000,
-    //    autoplayHoverPause: false,
-    //    autoHeightClass: 'owl-height'
-    //});
 
 </script>
 </asp:Content>
