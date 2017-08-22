@@ -85,7 +85,7 @@ PAGINAS RELACIONADAS A ESTA--%>
                         <span class="icon-bar"></span>
                     </button>
                     <%--LOGO DE LA EMPRESA--%>
-                    <a class="navbar-brand" href="Inicio.aspx"><img src="images/logositsa.png" alt="logo"></a>
+                    <a class="navbar-brand" href="Inicio.aspx"><img src="images/logositsa.png" alt="logo"/></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
@@ -97,7 +97,7 @@ PAGINAS RELACIONADAS A ESTA--%>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Blog Single</a></li>
+                                <li><a href="Desarrollo.aspx">Desarrollo</a></li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="#">404</a></li>
                                 <li><a href="#">Shortcodes</a></li>

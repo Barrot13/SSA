@@ -92,6 +92,7 @@
     <Content Include="Assets\js\respond.min.js" />
     <Content Include="Assets\js\wow.min.js" />
     <Content Include="Contacto.aspx" />
+    <Content Include="Desarrollo.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="packages.config" />
     <Content Include="Master.Master" />
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrollo.aspx.cs">
+      <DependentUpon>Desarrollo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Desarrollo.aspx.designer.cs">
+      <DependentUpon>Desarrollo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
