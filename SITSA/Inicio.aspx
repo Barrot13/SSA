@@ -18,17 +18,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
     <%--CONTENIDO PRINCIPAL DE ESTA PÁGINA--%>
 
-    <%--CARRUSEL--%>
+    <%--CARRUSEL SERVICIOS--%>
 
        <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
+        <div id="c1" class="carousel slide">
 
             <%--CANTIDAD DE PESTAÑAS QUE SE MUESTRAN EN EL CARRUSEL--%>
             <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-                <li data-target="#main-slider" data-slide-to="3"></li>
+                <li data-target="#c1" data-slide-to="0" class="active"></li>
+                <li data-target="#c1" data-slide-to="1"></li>
+                <li data-target="#c1" data-slide-to="2"></li>
+                <li data-target="#c1" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <%--PRIMER ELEMNTO DEL CARRUSEL--%>
@@ -120,10 +120,10 @@
                 </div><!--/.item-->
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <a class="prev hidden-xs" href="#c1" data-slide="prev">
             <i class="fa fa-chevron-left"></i>
         </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <a class="next hidden-xs" href="#c1" data-slide="next">
             <i class="fa fa-chevron-right"></i>
         </a>
     </section> <%--TERMINA LA SECCIÓN DEL CARRUSEL--%>
@@ -154,17 +154,47 @@
          </div>
         </div>
     </section>
-    
-    
+
     <section id="reviews">
-<%--        <div class="carousel-inner">
-        <div class="item">
+        
+        <div class="clients-area center wow fadeInDown">
+            <h2>
+                What our client says</h2>
+            <p class="lead">
+                We pride ourselves on providing superior service but you don't just have to take
+                our word for it.
+                <br>
+                Read what employers in the UK have to say about working with Robert Half in the
+                client testimonials below.</p>
+        </div>
+    <%--CARRUSEL DE REVIEWS--%>
+     <section id="main-slider" class="no-margin">
+               
+         <div id="c2" class="carousel slide">
+
+            <%--CANTIDAD DE PESTAÑAS QUE SE MUESTRAN EN EL CARRUSEL--%>
+
+            <div class="carousel-inner">
+                <%--PRIMER ELEMNTO DEL CARRUSEL--%>
+                <div class="item active">
                     <div class="container">
                         <div class="row slide-margin">
+
                             <div class="col-sm-3 fadeInDown">
                                 <div class="carousel-content">
                                         <div class="clients-comments text-center">
-                                            <img src="images/client1.png" class="img-circle" alt="">
+                                            <img src="images/client1.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                             <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client1.png" class="img-circle" alt=""/>
                                             <h3>
                                                 Marketers, including Unilever, reveal </h3>
                                             <h4>
@@ -173,10 +203,10 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-3 fadeInDown">
+                             <div class="col-sm-3 fadeInDown">
                                 <div class="carousel-content">
                                         <div class="clients-comments text-center">
-                                            <img src="images/client2.png" class="img-circle" alt="">
+                                            <img src="images/client1.png" class="img-circle" alt=""/>
                                             <h3>
                                                 Marketers, including Unilever, reveal </h3>
                                             <h4>
@@ -184,21 +214,10 @@
                                         </div>
                                 </div>
                             </div>
-                            <div class="col-sm-3 fadeInDown">
+                             <div class="col-sm-3 fadeInDown">
                                 <div class="carousel-content">
                                         <div class="clients-comments text-center">
-                                            <img src="images/client1.png" class="img-circle" alt="">
-                                            <h3>
-                                                Marketers, including Unilever, reveal </h3>
-                                            <h4>
-                                                <span>- Will Smith /</span> Director of strap.com</h4>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 fadeInDown">
-                                <div class="carousel-content">
-                                        <div class="clients-comments text-center">
-                                            <img src="images/client1.png" class="img-circle" alt="">
+                                            <img src="images/client1.png" class="img-circle" alt=""/>
                                             <h3>
                                                 Marketers, including Unilever, reveal </h3>
                                             <h4>
@@ -209,58 +228,154 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-            </div>--%>
-    <div class="clients-area center wow fadeInDown">
-        <h2>
-            What our client says</h2>
-        <p class="lead">
-            We pride ourselves on providing superior service but you don't just have to take
-            our word for it.
-            <br>
-            Read what employers in the UK have to say about working with Robert Half in the
-            client testimonials below.</p>
-    </div>
-      
-        <div class="container">
-            <div class="col-md-3 wow fadeInDown">
-                <div class="clients-comments text-center">
-                    <img src="images/client1.png" class="img-circle" alt="">
-                    <h3>
-                        Marketers, including Unilever, reveal </h3>
-                    <h4>
-                        <span>- Will Smith /</span> Director of strap.com</h4>
-                </div>
-            </div>
-                <div class="col-md-3 wow fadeInDown">
-                    <div class="clients-comments text-center">
-                        <img src="images/client2.png" class="img-circle" alt="">
-                        <h3>
-                            Executives from BBH, Euro RSCG.</h3>
-                        <h4>
-                            <span>- Will Smith /</span> Director of strap.com</h4>
+
+                <%--SEGUNDO ELEMENTO--%>
+                <div class="item">
+                    <div class="container">
+                        <div class="row slide-margin">
+
+
+                             <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client2.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client2.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                             <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client2.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                             <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client2.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 wow fadeInDown">
-                    <div class="clients-comments text-center">
-                        <img src="images/client3.png" class="img-circle" alt="">
-                        <h3>
-                            Professors from the Kellogg.</h3>
-                        <h4>
-                            <span>- Will Smith /</span> Director of strap.com</h4>
+                </div><!--/.item-->
+
+                <%--TERCER ELEMENTO--%>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="row slide-margin">
+
+
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client3.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client3.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client3.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 fadeInDown">
+                                <div class="carousel-content">
+                                        <div class="clients-comments text-center">
+                                            <img src="images/client3.png" class="img-circle" alt=""/>
+                                            <h3>
+                                                Marketers, including Unilever, reveal </h3>
+                                            <h4>
+                                                <span>- Will Smith /</span> Director of strap.com</h4>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 wow fadeInDown">
-                    <div class="clients-comments text-center">
-                        <img src="images/about.jpg" class="img-circle" alt="">
-                        <h3>
-                            Professors from the Kellogg.</h3>
-                        <h4>
-                            <span>- Will Smith /</span> Director of strap.com</h4>
+                </div><!--/.item-->
+
+                <%--CUARTO ELEMENTO--%>
+
+<%--                <div class="item" style="background-image: url(images/slider/bg4.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Mobile-first approach</h1>
+                                    <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/laptop.png" width="80%" class="img-responsive" alt=""/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-        </div>
+                </div><!--/.item-->--%>
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#c2" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#c2" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section> <%--TERMINA LA SECCIÓN DEL CARRUSEL REVIEWS--%>
     </section>
 
+    
         <%--CARRUSEL DE MARCAS--%>
     
     <section id="marcas">
@@ -321,7 +436,5 @@
         autoplayHoverPause: false,
         autoHeightClass: 'owl-height'
     });
-
-
 </script>
 </asp:Content>
