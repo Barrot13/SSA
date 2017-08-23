@@ -43,6 +43,17 @@ h4{
   font-size: 16px;
 }
 
+h7{
+
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+    color:antiquewhite;
+
+}
+
+
+
 a {
   color: #0066FF;
   -webkit-transition: color 300ms, background-color 300ms;
@@ -378,7 +389,6 @@ input.search-form:hover {
 *Informacíon de la empresa*
 ****************************/
 
-
 #nosotros {
 
  padding-top: 2%;
@@ -397,11 +407,10 @@ input.search-form:hover {
 background-color: #CED8F6;
 }
 
-#desarrollo{
-
-    background-image:url(../images/slider/desarrollo1.jpeg);
-
+#desarrollo {
+    background-image: url('../images/slider/desing5.jpeg');
 }
+    
 /*************************
 *******Home Page******
 **************************/
@@ -588,7 +597,7 @@ background-color: #CED8F6;
 
 #feature
 {
-    background: #99CCFF;
+    background: #CEECF5;/*99CCFF*/
     padding-bottom: 40px;
     padding-top: 40px;
     

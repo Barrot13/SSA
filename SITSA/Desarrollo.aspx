@@ -1,31 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Desarrollo.aspx.cs" Inherits="SITSA.Desarrollo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
     
     
-    <section id="desarrollo">
+    <section id="desarrollo" style="background-image:url(images/slider/desing6.jpeg);">
 
-         <div class="center wow fadeInDown">
-                <h2>Features</h2>
-                <p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>
-            </div>
-
-
-    </section>
-
-<div class="container-fluid text-center">
-
-  
-    
-     <section id="feature">
         <div class="container">
-           <div class="center wow fadeInDown">
-                <h2>Features</h2>
-                <p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>
-            </div>
+
+
+            
+
+            <div class="center wow fadeInLeft" >
+                    <h7>Desarrollo a la medida</h7>
+                    <p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>
+                </div>
 
             <div class="row">
                 <div class="features" class="col-sm-9 col-lg-9 col-md-9 text-left">
@@ -52,10 +45,10 @@
                             <h3>Bootstrap Grid system has four classes - xs, sm, md & lg</h3>
                         </div>
                     </div><!--/.col-md-4-->
-                
+<%--                
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-comment"></i>
+                            <i class="fa fa-android fa-3x" style="color:forestgreen;"></i>
                             <h2>Modal & Tooltip</h2>
                             <h3>Modal is a dialog box/popup, Tooltip is small pop-up box</h3>
                         </div>
@@ -75,35 +68,55 @@
                             <h2>The Carousel Plugin</h2>
                             <h3>The Carousel plugin is a Slideshow</h3>
                         </div>
-                    </div><!--/.col-md-4-->
+                    </div><!--/.col-md-4-->--%>
                 </div><!--/.services-->
-            </div><!--/.row-->    
-        </div><!--/.container-->
-    </section>    
+            </div><!--/.row-->   
+            </div>
+
+
+    </section>
+
+<div class="container-fluid text-center" style="background-image:url(images/slider/trans_bg.jpg)"/>
+    
   <div class="row content">
 
+
       <%--CONTENIDO CENTRAL--%>
-    <div class="col-sm-9 col-lg-9 col-md-9 text-left"> 
-
-
-       
-    <!--/#feature-->
-      <%--<h2>Welcome</h2>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
-      <hr>
-      <h3>Test</h3>--%>
-    </div>
+      <div class="col-sm-9 col-lg-9 col-md-9 text-left">
+          <%--<section id="feature">--%>
+              <div class="container">
+                  <div class="center wow fadeInDown">
+                      <h2>Features</h2>
+                      <p class="lead">Easy to use, Responsive features, Mobile-first approach
+                          <br> Browser compatibility Bootstrap is compatible with all modern browsers
+                      </p>
+                  </div>
+              </div>
+          <%--</section>--%>
+      </div>
 
       <%--PANEL LATERAL--%>
+      
     <div class="col-sm-3 col-lg-3 col-md-3 sidenav">
-      <div class="well">
+        <br />
+      <div class="well" style="border-color:deepskyblue;">
+          <h2>Nuestros Productos</h2>
         <p class="lead">ADS</p>
       </div>
-      <div class="well">
+      <div class="well" style="border-color:deepskyblue;">
+        <p class="lead">ADS</p>
+      </div>
+
+      <div class="well" style="border-color:deepskyblue;">
+        <p class="lead">ADS</p>
+      </div>
+
+      <div class="well" style="border-color:deepskyblue;">
+          
         <p class="lead">ADS</p>
       </div>
     </div><%--FIN PANEL LATERAL--%>
-  </div>
+      
 </div>
 </asp:Content>
 
