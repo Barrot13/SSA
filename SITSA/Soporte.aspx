@@ -1,19 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Desarrollo.aspx.cs" Inherits="SITSA.Desarrollo" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Soporte.aspx.cs" Inherits="SITSA.Soporte" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
-
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
 </asp:Content>
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
-    
-    
-    <section  style="background-image:url(images/slider/code5.jpg); /*filter:blur(1px);*/">
+
+     <section id="desarrollo" style="background-image:url(images/slider/bg4.jpg);">
 
         <div class="container">
 
             <div class="center wow fadeInLeft" >
-                    <h7>Desarrollo a la medida</h7>
+                    <h7>Soporte Técnico Empresarial</h7>
                     <p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>
                 </div>
 
@@ -37,7 +33,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <a href="Soporte.aspx"><i class="fa fa-cloud-download"></i></a>
+                            <i class="fa fa-cloud-download"></i>
                             <h2>Easy to customize</h2>
                             <h3>Bootstrap Grid system has four classes - xs, sm, md & lg</h3>
                         </div>
@@ -100,7 +96,6 @@
       </div>
       <div class="well" style="border-color:deepskyblue;">
         <p class="lead">ADS</p>
-
       </div>
 
       <div class="well" style="border-color:deepskyblue;">
@@ -115,8 +110,5 @@
       
 </div>
 </asp:Content>
-
-
-
 <asp:Content ID="Content3" ContentPlaceHolderID="js" runat="server">
 </asp:Content>

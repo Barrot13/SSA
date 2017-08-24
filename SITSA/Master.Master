@@ -91,14 +91,14 @@ PAGINAS RELACIONADAS A ESTA--%>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Inicio.aspx">Inicio</a></li>
-                       <li><a href="portfolio.aspx">Nuestros Clientes</a></li>
+                        <li><a href="portfolio.aspx">Nuestros Clientes</a></li>
 
                         <%--MENUS DROPDOWN--%>                       
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="Desarrollo.aspx">Desarrollo</a></li>
-                                <li><a href="#">Pricing</a></li>
+                                <li><a href="Soporte.aspx">Soporte</a></li>
                                 <li><a href="#">404</a></li>
                                 <li><a href="#">Shortcodes</a></li>
                             </ul> 
@@ -140,7 +140,21 @@ PAGINAS RELACIONADAS A ESTA--%>
         <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
     </footer>
 
-        <%--SCRIPT NECESARIO PARA LA FUNCION BACK TO TOP--%>
+
+    </div>
+    </form>
+
+   <%-- ------ JS ------ --%>
+    <script type="text/javascript" src="Assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Assets/js/html5shiv.js"></script>
+    <script type="text/javascript" src="Assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="Assets/js/jquery.js"></script>
+    <script type="text/javascript" src="Assets/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="Assets/js/main.js"></script>
+    <script type="text/javascript" src="Assets/js/respond.min.js"></script>
+    <script type="text/javascript" src="Assets/js/wow.min.js"></script>
+
+            <%--SCRIPT NECESARIO PARA LA FUNCION BACK TO TOP--%>
         <script type="text/javascript">
         jQuery(document).ready(function () {
             var offset = 300;
@@ -160,18 +174,6 @@ PAGINAS RELACIONADAS A ESTA--%>
             })
         });
     </script>
-    </div>
-    </form>
-
-   <%-- ------ JS ------ --%>
-    <script type="text/javascript" src="Assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Assets/js/html5shiv.js"></script>
-    <script type="text/javascript" src="Assets/js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="Assets/js/jquery.js"></script>
-    <script type="text/javascript" src="Assets/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="Assets/js/main.js"></script>
-    <script type="text/javascript" src="Assets/js/respond.min.js"></script>
-    <script type="text/javascript" src="Assets/js/wow.min.js"></script>
    
     <asp:ContentPlaceHolder ID="js" runat="server">
     </asp:ContentPlaceHolder>

@@ -381,7 +381,7 @@
     <section id="marcas">
         <div class="owl-carousel owl-theme">
             <div class="item" style="max-width:900%">
-                <img src="images/marcas/hikvision_part.png" alt="">
+                <img src="images/marcas/microsoft.png" alt="">
             </div>
             <div class="item" style="max-width:90%">
                 <img src="images/marcas/yealink_part.png" alt="">
@@ -409,6 +409,9 @@
             </div>
             <div class="item" style="max-width:90%">
                 <img src="images/marcas/mikrotik_part.png" alt="">
+            </div>
+            <div class="item" style="max-width:900%">
+                <img src="images/marcas/hikvision_part.png" alt="">
             </div>
         </div>
          </section>
