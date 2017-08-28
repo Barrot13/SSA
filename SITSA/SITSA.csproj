@@ -79,6 +79,8 @@
     <Content Include="Assets\css\owl.theme.green.min.css" />
     <Content Include="Assets\css\prettyPhoto.css" />
     <Content Include="Assets\css\responsive.css" />
+    <Content Include="Assets\images\logo2.png" />
+    <Content Include="Assets\images\logositsaCentroamerica LAst2.jpg" />
     <Content Include="Assets\images\soporte.png" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\html5shiv.js" />
@@ -92,6 +94,7 @@
     <Content Include="Assets\js\respond.min.js" />
     <Content Include="Assets\js\wow.min.js" />
     <Content Include="Contacto.aspx" />
+    <Content Include="Correo\Correo.html" />
     <Content Include="Desarrollo.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="packages.config" />
@@ -116,6 +119,7 @@
     <Compile Include="Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Correo\Correo.cs" />
     <Compile Include="Desarrollo.aspx.cs">
       <DependentUpon>Desarrollo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

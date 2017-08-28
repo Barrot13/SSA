@@ -33,10 +33,11 @@
             <div class="carousel-inner">
                 <%--PRIMER ELEMNTO DEL CARRUSEL--%>
                  <%-- IMAGEN DE FONDO--%>
-                <div class="item active" style="background-image: url(images/slider/bussines.jpg)">
+                <div class="item active" style="background-image: url(images/slider/code6.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
 
+                          
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Desarrollo a la Medida</h1>
@@ -44,11 +45,11 @@
                                     <a class="btn-slide animation animated-item-3" href="Desarrollo.aspx">Más Información</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <%--<div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <%--<img src="images/slider/img1.png" class="img-responsive" alt=""/>--%>
+                                   
                                 </div>
-                            </div>
+                            </div>--%>
 
 
                         </div>
@@ -56,22 +57,22 @@
                 </div><!--/.item-->
 
                 <%--SEGUNDO ELEMENTO--%>
-                <div class="item" style="background-image: url(images/slider/serveroom.jpg)">
+                <div class="item" style="background-image: url(images/slider/tecnologa.png)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Venta de Equipo</h1>
+                                    <h1 class="animation animated-item-1">Outsourcing</h1>
                                     <h2 class="animation animated-item-2">Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</h2>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                           <%-- <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <%--<img src="images/slider/img2.png" class="img-responsive" alt=""/>--%>
+                                    <img src="images/slider/hardware4.png" width="95%" class="img-responsive" alt=""/>
                                 </div>
-                            </div>
+                            </div>--%>
 
                         </div>
                     </div>
@@ -79,21 +80,21 @@
 
                 <%--TERCER ELEMENTO--%>
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(images/slider/desing3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Mobile-first approach</h1>
+                                    <h1 class="animation animated-item-1">Soporte Técnico Empresarial</h1>
                                     <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
+                                    <a class="btn-slide animation animated-item-3" href="Soporte.aspx">Más Información</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <%--<div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive" alt=""/>
+                                    <img src="images/slider/hardware4.png" width="95%" class="img-responsive" alt=""/>
                                 </div>
-                            </div>
+                            </div>--%>
                         </div>
                     </div>
                 </div><!--/.item-->
@@ -105,14 +106,14 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Mobile-first approach</h1>
+                                    <h1 class="animation animated-item-1">Venta de Equipo</h1>
                                     <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/laptop.png" width="80%" class="img-responsive" alt=""/>
+                                    <img src="images/slider/hardware4.png" width="95%" class="img-responsive" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +167,6 @@
                 <br>
                 Read what employers in the UK have to say about working with Robert Half in the
                 client testimonials below.</p>
-        </div>
     <%--CARRUSEL DE REVIEWS--%>
      <section id="main-slider" class="no-margin">
                

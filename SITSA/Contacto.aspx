@@ -90,7 +90,7 @@
                     <div class="col-sm-5">
                         <div class="form-group">
                             <label>Asunto *</label>
-                            <asp:TextBox ID="txtsubject" runat="server" CssClass="form-control" required="required"></asp:TextBox>
+                            <asp:TextBox ID="txtsubject" runat="server" CssClass="form-control" required="required" ></asp:TextBox>
                             
                         </div>
                         <div class="form-group">
