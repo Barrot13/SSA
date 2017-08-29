@@ -94,11 +94,10 @@
     <Content Include="Assets\js\respond.min.js" />
     <Content Include="Assets\js\wow.min.js" />
     <Content Include="Contacto.aspx" />
-    <Content Include="Correo\Correo.html" />
     <Content Include="Desarrollo.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="packages.config" />
-    <Content Include="Master.Master" />
+    <EmbeddedResource Include="Master.Master" />
     <None Include="Properties\PublishProfiles\SITSA.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -109,7 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Soporte.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contacto.aspx.cs">

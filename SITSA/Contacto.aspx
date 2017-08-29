@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Contacto.aspx.cs" Inherits="SITSA.Contacto" %>
+
 <%--ARCHIVOS CSS NECESARIOS--%>
 <asp:Content ID="Content1" ContentPlaceHolderID="css" runat="server">
 </asp:Content>
@@ -9,7 +10,7 @@
 
     <%--INFORMACIÓN DE LA EMPRESA
     MAPA DE UBICACIÓN--%>
-   <section id="contact-info">
+    <section id="contact-info">
      <br /> <br />  
         <div class="center">                
             <h2>Contáctenos</h2>
@@ -53,14 +54,15 @@
                 </div>
             </div>
         </div>
-    </section> <%--/INFORMACION DE CONTACTO--%>
+    </section>
+    <%--/INFORMACION DE CONTACTO--%>
 
     <%--FORMULARIO PARA CONTACTAR ALA EMPRESA--%>
 
-   <section id="contact-page">
+    <section id="contact-page">
         <div class="container">
         <br />
-        <br />
+        
             <div class="center">        
                 <h2>Déjenos su mensaje</h2>
                 <p class="lead">Pronto atenderemos sus consultas</p>
@@ -80,7 +82,7 @@
                         </div>
                         <div class="form-group">
                             <label>Teléfono</label>
-                            <input type="number" class="form-control">
+                            <input type="number" class="form-control"/>
                         </div>
                         <div class="form-group">
                             <label>Nombre de su Compañía</label>
@@ -99,13 +101,14 @@
                            
                         </div>                        
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar</button>
+                            <asp:Button ID="Button1" runat="server" Text="Enviar" class="btn btn-primary btn-lg" OnClick="Button1_Click"></asp:Button>
                         </div>
                     </div>
                 </form> 
             </div><!--/.row-->
         </div><!--/.container-->
-    </section> <%--FIN DEL FORMULARIO--%>
+    </section>
+    <%--FIN DEL FORMULARIO--%>
 </asp:Content>
 
 <%--ARCHIVOS JS NECESARIOS--%>
