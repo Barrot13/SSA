@@ -94,11 +94,44 @@
       
     <div class="col-sm-3 col-lg-3 col-md-3 sidenav">
         <br />
-      <div class="well" style="border-color:deepskyblue;">
-          <h2>Nuestros Productos</h2>
-        <p class="lead">ADS</p>
-      </div>
-      <div class="well" style="border-color:deepskyblue;">
+      <%--<div class="" style="border-color:deepskyblue; /*background-image:url(Assets/images/soporte.png); width:100%;*/">--%>
+          
+          <div class="well contenedor" style="" >
+              <img src="Assets/images/graph.jpeg" class="imagepub"/>
+              <div class="overlay">
+              <div class="text">
+                  <a href="Soporte.aspx">LOJISTIK BIWEB</a> </div>
+              </div>
+              </div>
+          <%--</div>--%>
+        
+        
+        <div class="well contenedor" style="" >
+            <img src="Assets/images/Bio-Metric-Scanner.jpg" class="imagepub"/>
+            <div class="overlay">
+                <div class="text">
+                    <a href="Soporte.aspx">LOJISTIK Control de Marcas</a> </div>
+            </div>
+        </div>
+
+         <div class="well contenedor" style="" >
+              <img src="Assets/images/biometrics.jpg" class="imagepub"/>
+              <div class="overlay">
+              <div class="text">
+                  <a href="Soporte.aspx">LOJISTIK </a> </div>
+              </div>
+              </div>
+
+  
+         <div class="well contenedor" style="" >
+              <img src="Assets/images/graph.jpeg" class="imagepub"/>
+              <div class="overlay">
+              <div class="text">
+                  <a href="Soporte.aspx">LOJISTIK Control de Viaticos</a> </div>
+              </div>
+              </div>
+
+<%--      <div class="well" style="border-color:deepskyblue;">
         <p class="lead">ADS</p>
 
       </div>
@@ -110,7 +143,7 @@
       <div class="well" style="border-color:deepskyblue;">
           
         <p class="lead">ADS</p>
-      </div>
+      </div>--%>
     </div><%--FIN PANEL LATERAL--%>
       
 </div>

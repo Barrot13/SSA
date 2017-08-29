@@ -41,13 +41,11 @@ namespace SITSA.Correo
                 SmtpServer.Port = 587; //puerto que utiliza Google, por defecto, para sus servicios.
 
                 //Se especifican las credenciales de la cuenta de donde se va a enviar los correos.
-                SmtpServer.Credentials = new NetworkCredential("diedfredzeep@gmail.com", "29B7k307");
+                SmtpServer.Credentials = new NetworkCredential("kristopherbd@hotmail.com", "130196");
 
                 //Se envia el email
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(correo);
-                //SmtpServer.EnableSsl = true;
-                //SmtpServer.Send(mail);
                 return true;
 
             }

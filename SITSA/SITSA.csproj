@@ -79,6 +79,10 @@
     <Content Include="Assets\css\owl.theme.green.min.css" />
     <Content Include="Assets\css\prettyPhoto.css" />
     <Content Include="Assets\css\responsive.css" />
+    <Content Include="Assets\images\access-control-elgin1.jpg" />
+    <Content Include="Assets\images\Bio-Metric-Scanner.jpg" />
+    <Content Include="Assets\images\biometrics.jpg" />
+    <Content Include="Assets\images\graph.jpeg" />
     <Content Include="Assets\images\logo2.png" />
     <Content Include="Assets\images\logositsaCentroamerica LAst2.jpg" />
     <Content Include="Assets\images\soporte.png" />
