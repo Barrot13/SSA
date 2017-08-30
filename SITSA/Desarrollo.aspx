@@ -95,12 +95,14 @@
     <div class="col-sm-3 col-lg-3 col-md-3 sidenav">
         <br />
         <div class="contenedor well" style="" >
-            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® BIWEB</p>
+            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">Nuestros Productos</p>
             <img src="Assets/images/graph.jpeg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                    <a href="Soporte.aspx">LOJISTIK® BIWEB</a> </div>
+                    <a href="#">LOJISTIK® BIWEB</a> </div>
             </div>
+            <br />
+            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® BIWEB</p>
             
         </div>
           
@@ -110,8 +112,9 @@
             <div class="overlay">
                 <div class="text">
                     <a href="Soporte.aspx">LOJISTIK® Control de Marcas</a> </div>
-                
             </div>
+            <br />
+            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® Control de Marcas</p>
         </div>
 
          <div class="well contenedor" style="" >

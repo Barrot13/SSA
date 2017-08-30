@@ -11,7 +11,7 @@ namespace SITSA
         }
 
 
-        private string CuerpoEmail(string Mensaje)
+        private string CuerpoEmail(string Mensaje, string Asunto, string Nombre, string Empresa,string Correo, string Numero)
         {
             string body = string.Empty;
             using (StreamReader reader = new StreamReader(Server.MapPath("~/Correo/Correo.html")))
@@ -20,6 +20,11 @@ namespace SITSA
             }
             //body = body.Replace("{UserName}", userName);
             body = body.Replace("{Mensaje}", Mensaje);
+            body = body.Replace("{Asunto}", Asunto);
+            body = body.Replace("{Nombre}", Nombre);
+            body = body.Replace("{Empresa}", Empresa);
+            body = body.Replace("{Correo}", Correo);
+            body = body.Replace("{Numero}", Numero);
             return body;
         }
 
@@ -29,10 +34,10 @@ namespace SITSA
             {
                 Correo.Correo correo = new Correo.Correo();
                 string Asunto = txtsubject.Text;
-                string cc = txtName.Text;
-                string body = CuerpoEmail(txtmsg.Text);
-                string to = "diedfredzeep@gmail.com";
-                correo.enviarCorreo(Asunto, cc, body, to);
+                string cc = txtName.Text; 
+                string body = CuerpoEmail(txtmsg.Text, txtsubject.Text, txtName.Text, txtcmpnm.Text, txtemail.Text, txtnmbr.Text);
+                
+                correo.enviarCorreo(Asunto, cc, body);
             }
             catch (Exception)
             {

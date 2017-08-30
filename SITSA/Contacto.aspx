@@ -82,7 +82,8 @@
                         </div>
                         <div class="form-group">
                             <label>Teléfono</label>
-                            <input type="number" class="form-control"/>
+                            <%--<input id="numero" type="number" class="form-control"/>--%>
+                            <asp:TextBox ID="txtnmbr" runat="server" CssClass="form-control" type="number"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>Nombre de su Compañía</label>

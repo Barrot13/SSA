@@ -17,7 +17,7 @@ namespace SITSA.Correo
         private AlternateView htmlView;
         SmtpClient SmtpServer = new SmtpClient("mail.sitsacr.net");
 
-        public bool enviarCorreo(string Asunto, string cc, string body, string to)
+        public bool enviarCorreo(string Asunto, string cc, string body)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace SITSA.Correo
                 correo.Subject = Asunto;
 
                 //A quien va dirigido
-                correo.To.Add(to);
+                correo.To.Add("diedfredzeep@gmail.com");
 
                 //Cuerpo del correo
                 correo.IsBodyHtml = true;
