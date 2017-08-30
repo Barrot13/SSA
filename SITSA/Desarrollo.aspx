@@ -71,7 +71,7 @@
             </div>
   </section>
 
-<div class="container-fluid text-center" style="background-image:url(images/slider/bg5.jpg)"/>
+<div class="container-fluid text-center" style="background-image:url(images/slider/bg5.jpg);"/>
     
   <div class="row content">
 
@@ -94,12 +94,14 @@
       
     <div class="col-sm-3 col-lg-3 col-md-3 sidenav">
         <br />
-        <div class="well contenedor" style="" >
+        <div class="contenedor well" style="" >
+            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® BIWEB</p>
             <img src="Assets/images/graph.jpeg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                    <a href="Soporte.aspx">LOJISTIK BIWEB</a> </div>
+                    <a href="Soporte.aspx">LOJISTIK® BIWEB</a> </div>
             </div>
+            
         </div>
           
                
@@ -107,7 +109,8 @@
             <img src="Assets/images/Bio-Metric-Scanner.jpg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                    <a href="Soporte.aspx">LOJISTIK Control de Marcas</a> </div>
+                    <a href="Soporte.aspx">LOJISTIK® Control de Marcas</a> </div>
+                
             </div>
         </div>
 
@@ -115,7 +118,7 @@
              <img src="Assets/images/biometrics.jpg" class="imagepub"/>
              <div class="overlay">
                  <div class="text">
-                     <a href="Soporte.aspx">LOJISTIK </a> </div>
+                     <a href="Soporte.aspx">LOJISTIK® </a> </div>
              </div>
          </div>
         
@@ -123,7 +126,7 @@
             <img src="Assets/images/graph.jpeg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                    <a href="Soporte.aspx">LOJISTIK Control de Viaticos</a> </div>
+                    <a href="Soporte.aspx">LOJISTIK®</a> </div>
             </div>
         </div>
 

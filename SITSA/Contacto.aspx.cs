@@ -10,12 +10,18 @@ namespace SITSA
 
         }
 
-        //private void EnviarCorreo()
-        //{
-            
-            
 
-        //}
+        private string CuerpoEmail(string Mensaje)
+        {
+            string body = string.Empty;
+            using (StreamReader reader = new StreamReader(Server.MapPath("~/Correo/Correo.html")))
+            {
+                body = reader.ReadToEnd();
+            }
+            //body = body.Replace("{UserName}", userName);
+            body = body.Replace("{Mensaje}", Mensaje);
+            return body;
+        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -24,7 +30,7 @@ namespace SITSA
                 Correo.Correo correo = new Correo.Correo();
                 string Asunto = txtsubject.Text;
                 string cc = txtName.Text;
-                string body = txtmsg.Text;
+                string body = CuerpoEmail(txtmsg.Text);
                 string to = "diedfredzeep@gmail.com";
                 correo.enviarCorreo(Asunto, cc, body, to);
             }
@@ -34,17 +40,7 @@ namespace SITSA
         }
 
 
-        //private string CuerpoEmail(string Mensaje)
-        //{
-        //    string body = string.Empty;
-        //    using (StreamReader reader = new StreamReader(Server.MapPath("~/Correo/Correo.html")))
-        //    {
-        //        body = reader.ReadToEnd();
-        //    }
-        //    //body = body.Replace("{UserName}", userName);
-        //    body = body.Replace("{Mensaje}", Mensaje);
-        //    return body;
-        //}
+
 
         //protected void EnviarCorreo()
         //{
@@ -52,7 +48,7 @@ namespace SITSA
         //    {
         //        Correo.Correo correo = new Correo.Correo();
         //        correo.ConfigurarMail("kristopherbd@hotmail.com", "130196", 587, "mail.sitsacr.net");
-        //        string body = CuerpoEmail(txtmsg.Text);
+        //        
 
         //        correo.EnviarMail("kristopherbd@hotmail.com", "Krsitopher Barrot", "Asunto", body);
 
