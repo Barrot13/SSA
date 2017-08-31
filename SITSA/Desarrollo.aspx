@@ -8,16 +8,26 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="contenido" runat="server">
     
     
-    <section  style="background-image:url(images/slider/code5.jpg); /*filter:blur(1px);*/">
+    <section  style="background-image:url(images/slider/cross.jpg); /*filter:blur(1px);*/">
 
         <div class="container">
 
+    <br />
+            <br />
+            <br />
+            <br />
+
             <div class="center wow fadeInLeft" >
                     <h7>Desarrollo a la medida</h7>
-                    <p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>
                 </div>
+            <br />
+            <br />
+            <br />
 
-            <div class="row">
+
+    
+
+<%--            <div class="row">
                 <div class="features" class="col-sm-9 col-lg-9 col-md-9 text-left">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
@@ -42,7 +52,7 @@
                             <h3>Bootstrap Grid system has four classes - xs, sm, md & lg</h3>
                         </div>
                     </div><!--/.col-md-4-->
-<%--                
+                
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-android fa-3x" style="color:forestgreen;"></i>
@@ -65,13 +75,13 @@
                             <h2>The Carousel Plugin</h2>
                             <h3>The Carousel plugin is a Slideshow</h3>
                         </div>
-                    </div><!--/.col-md-4-->--%>
+                    </div><!--/.col-md-4-->
                 </div><!--/.services-->
-            </div><!--/.row-->   
+            </div><!--/.row-->  --%> 
             </div>
   </section>
 
-<div class="container-fluid text-center" style="background-image:url(images/slider/bg5.jpg);"/>
+<div class="container-fluid text-center" <%--style="background-image:url(images/slider/bg5.jpg);"--%>/>
     
   <div class="row content">
 
@@ -80,11 +90,11 @@
       <div class="col-sm-9 col-lg-9 col-md-9 text-left">
           <%--<section id="feature">--%>
               <div class="container">
-                  <div class="center wow fadeInDown">
-                      <h2>Features</h2>
-                      <p class="lead">Easy to use, Responsive features, Mobile-first approach
+                  <div class="left wow fadeInDown">
+                      <h7 style="color:black;">Features</h7>
+                      <h4 class="lead">Easy to use, Responsive features, Mobile-first approach
                           <br> Browser compatibility Bootstrap is compatible with all modern browsers
-                      </p>
+                      </h4>
                   </div>
               </div>
           <%--</section>--%>
@@ -94,28 +104,36 @@
       
     <div class="col-sm-3 col-lg-3 col-md-3 sidenav">
         <br />
-        <div class="contenedor well" style="" >
-            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">Nuestros Productos</p>
+        <%--<span>Nuestros Productos</span>--%>
+        <h2 style="color:cadetblue">Nuestros Productos</h2>
+        <hr style="color:blue" />
+        <div class="contenedor" style="" >
+            
             <img src="Assets/images/graph.jpeg" class="imagepub"/>
+            
             <div class="overlay">
                 <div class="text">
-                    <a href="#">LOJISTIK® BIWEB</a> </div>
+                    <h4><a href="#">LOJISTIK® BIWEB</a> </h4></div>
             </div>
             <br />
-            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® BIWEB</p>
+            <h4 style="color:cadetblue"><%--<p class="lead" style="font-family:Rockwell; color:black">--%>LOJISTIK® BIWEB<%--</p>--%></h4>
             
         </div>
+
+        <hr />
           
                
-        <div class="well contenedor" style="" >
+        <div class="contenedor" style="" >
             <img src="Assets/images/Bio-Metric-Scanner.jpg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                    <a href="Soporte.aspx">LOJISTIK® Control de Marcas</a> </div>
+                   <h4 ><a href="Soporte.aspx">LOJISTIK® Control de Marcas</a> </h4> </div>
             </div>
             <br />
-            <p class="lead" style="font-family:'Franklin Gothic Medium'; color:black">LOJISTIK® Control de Marcas</p>
+           <h4 style="color:cadetblue"> LOJISTIK® Control de Marcas</h4>
         </div>
+
+        <hr />
 
          <div class="well contenedor" style="" >
              <img src="Assets/images/biometrics.jpg" class="imagepub"/>
