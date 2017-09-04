@@ -52,6 +52,21 @@ h7{
 
 }
 
+h8{
+  font-size: 36px;
+  color:#fff;
+ 
+}
+
+hr1 {
+
+  border-left: 8px solid  #298A08;
+  padding-right:3%;
+   padding-top:3%;
+
+  
+
+}
 
 
 
@@ -433,6 +448,14 @@ input.search-form:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+
+/*.transback {
+	background-color:black;
+	opacity:0.4; 
+    color:white;
+	filter:alpha(opacity=30);
+}*/
 
 /*****************************
 *****Página de Inicio******

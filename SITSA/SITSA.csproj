@@ -83,6 +83,8 @@
     <Content Include="Assets\images\Bio-Metric-Scanner.jpg" />
     <Content Include="Assets\images\biometrics.jpg" />
     <Content Include="Assets\images\graph.jpeg" />
+    <Content Include="Assets\images\graph1.jpeg" />
+    <Content Include="Assets\images\LOGO1.png" />
     <Content Include="Assets\images\logo2.png" />
     <Content Include="Assets\images\logositsaCentroamerica LAst2.jpg" />
     <Content Include="Assets\images\soporte.png" />
@@ -97,6 +99,7 @@
     <Content Include="Assets\js\owl.carousel.min.js" />
     <Content Include="Assets\js\respond.min.js" />
     <Content Include="Assets\js\wow.min.js" />
+    <Content Include="BIWEB.aspx" />
     <Content Include="Contacto.aspx" />
     <Content Include="Correo\Correo.html" />
     <Content Include="Desarrollo.aspx" />
@@ -118,6 +121,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BIWEB.aspx.cs">
+      <DependentUpon>BIWEB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BIWEB.aspx.designer.cs">
+      <DependentUpon>BIWEB.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contacto.aspx.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
