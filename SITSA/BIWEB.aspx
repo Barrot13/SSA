@@ -121,8 +121,9 @@
             </div>
         </div>
         <!--/row-->
-        <div class="wow fadeInUptBig" data-wow-duration="1000ms" data-wow-delay="600ms" style="padding-left:30%">
+        <div class="wow fadeInUptBig" data-wow-duration="1000ms" data-wow-delay="600ms" style="padding-left:15%">
             <img src="images/slider/hardware4.png" style="max-width:50%;"/>
+            <img src="Assets/images/Sello.gif" style="max-width:30%; padding-left:15%"/>
         </div>
     </section>
 

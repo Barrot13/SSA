@@ -88,6 +88,8 @@
     <Content Include="Assets\images\LOGO1.png" />
     <Content Include="Assets\images\logo2.png" />
     <Content Include="Assets\images\logositsaCentroamerica LAst2.jpg" />
+    <Content Include="Assets\images\Sello.gif" />
+    <Content Include="Assets\images\SelloTransparente.png" />
     <Content Include="Assets\images\soporte.png" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\html5shiv.js" />
@@ -105,6 +107,7 @@
     <Content Include="ControlMarcas.aspx" />
     <Content Include="Correo\Correo.html" />
     <Content Include="Desarrollo.aspx" />
+    <Content Include="Ecommerce.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="packages.config" />
     <EmbeddedResource Include="Master.Master" />
@@ -151,6 +154,13 @@
     </Compile>
     <Compile Include="Desarrollo.aspx.designer.cs">
       <DependentUpon>Desarrollo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ecommerce.aspx.cs">
+      <DependentUpon>Ecommerce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ecommerce.aspx.designer.cs">
+      <DependentUpon>Ecommerce.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>

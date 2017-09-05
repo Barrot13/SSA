@@ -93,8 +93,6 @@
             <br />
             <br />
 
-
-
             <div class="features" class="col-sm-6 col-lg-6 col-md-6 text-left">
                 <div class="col-md-6 col-sm-6 wow fadeInUpBig" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div style="padding-left:15%">
@@ -116,11 +114,17 @@
 
                         <br />
                         <br />
+
+
+                        <i>
+                            <img src="Assets/images/LOGO.png">
+                        </i>
+
                         <br />
                         <br />
 
-                        <i>
-                        <img src="Assets/images/LOGO.png">
+                          <i>
+                              <img style="max-width:70%; padding-left:29%;" src="Assets/images/SelloTransparente.png" />
                         </i>
 
                     </div>
@@ -142,7 +146,6 @@
     </div>
 
 </asp:Content>
-
 
 <asp:Content ID="Content3" ContentPlaceHolderID="js" runat="server">
 </asp:Content>
