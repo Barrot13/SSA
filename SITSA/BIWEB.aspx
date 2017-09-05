@@ -11,7 +11,7 @@
 
     <section style="background-image: url(Assets/images/graph1.jpeg)">
 
-    <!--/Header color bar-->
+    <!--/top color bar-->
     <div>
         <br />
     </div>

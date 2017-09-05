@@ -63,11 +63,14 @@ hr1 {
   border-left: 8px solid  #298A08;
   padding-right:3%;
    padding-top:3%;
-
-  
-
 }
 
+hr2 {
+
+  border-left: 8px solid  #610B0B;
+  padding-right:3%;
+  padding-top:3%;
+}
 
 
 a {

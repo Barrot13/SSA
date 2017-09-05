@@ -97,7 +97,7 @@
                       </h4>
                   </div>
               </div>
-          <%--</section>--%>
+          <%--</container>--%>
       </div>
 
       <%--PANEL LATERAL--%>
@@ -116,7 +116,7 @@
                     <h4><a href="BIWEB.aspx">LOJISTIK® BIWEB</a> </h4></div>
             </div>
             <br />
-            <h4 style="color:cadetblue"><%--<p class="lead" style="font-family:Rockwell; color:black">--%>LOJISTIK® BIWEB<%--</p>--%></h4>
+            <h4 style="color:cadetblue">LOJISTIK® BIWEB</h4>
             
         </div>
 
@@ -127,7 +127,7 @@
             <img src="Assets/images/Bio-Metric-Scanner.jpg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
-                   <h4 ><a href="Soporte.aspx">LOJISTIK® Control de Marcas</a> </h4> </div>
+                   <h4 ><a href="ControlMarcas.aspx">LOJISTIK® Control de Marcas</a> </h4> </div>
             </div>
             <br />
            <h4 style="color:cadetblue"> LOJISTIK® Control de Marcas</h4>
@@ -143,13 +143,13 @@
              </div>
          </div>
         
-        <div class="well contenedor" style="" >
+<%--        <div class="well contenedor" style="" >
             <img src="Assets/images/graph.jpeg" class="imagepub"/>
             <div class="overlay">
                 <div class="text">
                     <a href="Soporte.aspx">LOJISTIK®</a> </div>
             </div>
-        </div>
+        </div>--%>
 
 <%--      <div class="well" style="border-color:deepskyblue;">
         <p class="lead">ADS</p>
