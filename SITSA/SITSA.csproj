@@ -82,6 +82,10 @@
     <Content Include="Assets\images\access-control-elgin1.jpg" />
     <Content Include="Assets\images\Bio-Metric-Scanner.jpg" />
     <Content Include="Assets\images\biometrics.jpg" />
+    <Content Include="Assets\images\ecom.jpg" />
+    <Content Include="Assets\images\ecommbg.jpg" />
+    <Content Include="Assets\images\Ecommerce-Logo-con-Carrito.png" />
+    <Content Include="Assets\images\EcommerceTrans2.PNG" />
     <Content Include="Assets\images\graph.jpeg" />
     <Content Include="Assets\images\graph1.jpeg" />
     <Content Include="Assets\images\LOGO.png" />
@@ -91,6 +95,7 @@
     <Content Include="Assets\images\Sello.gif" />
     <Content Include="Assets\images\SelloTransparente.png" />
     <Content Include="Assets\images\soporte.png" />
+    <Content Include="Assets\images\static_qr_code_without_logo.jpg" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\html5shiv.js" />
     <Content Include="Assets\js\jquery.isotope.min.js" />
