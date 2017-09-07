@@ -41,7 +41,7 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Desarrollo a la Medida</h1>
-                                    <h2 class="animation animated-item-2">Bootstrap is completely free to download and use!</h2>
+                                    <%--<h2 class="animation animated-item-2">Bootstrap is completely free to download and use!</h2>--%>
                                     <a class="btn-slide animation animated-item-3" href="Desarrollo.aspx">Más Información</a>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Outsourcing</h1>
-                                    <h2 class="animation animated-item-2">Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</h2>
+                                    <%--<h2 class="animation animated-item-2">Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</h2>--%>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Soporte Técnico Empresarial</h1>
-                                    <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
+                                    <%--<h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>--%>
                                     <a class="btn-slide animation animated-item-3" href="Soporte.aspx">Más Información</a>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Venta de Equipo</h1>
-                                    <h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>
+                                    <%--<h2 class="animation animated-item-2">In Bootstrap 3, mobile-first styles are part of the core framework</h2>--%>
                                     <a class="btn-slide animation animated-item-3" href="#">Más Información</a>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
         
         <div class="clients-area center wow fadeInDown">
             <h2>
-                What our client says</h2>
+                Qué opinan nuestros Clientes</h2>
             <p class="lead">
                 We pride ourselves on providing superior service but you don't just have to take
                 our word for it.

@@ -125,6 +125,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Portfolio.aspx" />
     <Content Include="Soporte.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -173,6 +174,13 @@
     </Compile>
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio.aspx.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio.aspx.designer.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Master.Master.cs">

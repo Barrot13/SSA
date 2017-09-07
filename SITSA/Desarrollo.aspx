@@ -135,12 +135,13 @@
 
         <hr />
 
-         <div class="well contenedor" style="" >
-             <img src="Assets/images/biometrics.jpg" class="imagepub"/>
+         <div class="contenedor" style="" >
+             <img src="images/slider/ecom3.jpg" class="imagepub"/>
              <div class="overlay">
                  <div class="text">
-                     <a href="Soporte.aspx">LOJISTIK® </a> </div>
+                     <a href="Ecommerce.aspx">LOJISTIK® E-commerce</a> </div>
              </div>
+             <h4 style="color:cadetblue"> LOJISTIK® E-commerce</h4>
          </div>
         
 <%--        <div class="well contenedor" style="" >

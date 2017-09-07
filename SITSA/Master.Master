@@ -91,7 +91,7 @@ PAGINAS RELACIONADAS A ESTA--%>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Inicio.aspx">Inicio</a></li>
-                        <li><a href="portfolio.aspx">Nuestros Clientes</a></li>
+                        <li><a href="Inicio.aspx">Nuestros Clientes</a></li>
 
                         <%--MENUS DROPDOWN--%>                       
                         <li class="dropdown">
@@ -99,8 +99,8 @@ PAGINAS RELACIONADAS A ESTA--%>
                             <ul class="dropdown-menu">
                                 <li><a href="Desarrollo.aspx">Desarrollo</a></li>
                                 <li><a href="Soporte.aspx">Soporte</a></li>
-                                <li><a href="#">404</a></li>
-                                <li><a href="#">Shortcodes</a></li>
+                                <li><a href="Portfolio.aspx">Portfolio</a></li>
+                                <%--<li><a href="#">Shortcodes</a></li>--%>
                             </ul> 
                         </li>
                         <li><a href="#">Tickets</a></li> 
